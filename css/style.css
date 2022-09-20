@@ -71,13 +71,15 @@ body {
 .notification_list_item {
   display: flex;
   padding: 1.8rem 3.2rem 1.8rem 2rem;
-  background-color: #F7FAFD;
   border-radius: .8rem;
   margin-bottom: .8rem; }
+  .notification_list_item.unread {
+    background-color: #F7FAFD; }
   .notification_list_item .n_profile_pic img {
     width: 4.5rem; }
   .notification_list_item .n_content {
-    margin-left: 1.9rem; }
+    margin-left: 1.9rem;
+    flex: 1; }
     .notification_list_item .n_content .info {
       margin-bottom: .3rem; }
       .notification_list_item .n_content .info_user {
@@ -96,3 +98,5 @@ body {
       padding: 2rem;
       border: 0.1rem solid #DDE7EE;
       border-radius: .5rem; }
+  .notification_list_item .n_info_pic img {
+    width: 4.5rem; }
