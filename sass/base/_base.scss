@@ -5,23 +5,16 @@
     padding: 0;
     padding-inline-start: 0;
     box-sizing: inherit;
+    list-style: none;
 }
+
 html {
     font-size: 62.5%;
-    @include respond(tab-land) { // width < 1200 ?
-        font-size: 56.25%; // 1rem = 9px, ( 9/16 px )*100 = 56.25%
-    }
-    @include respond(tab-port) { // width < 900 ?
-        font-size: 50%; // 1rem = 8px, ( 8/16 px )*100 = 50%
-    }
-    @include respond(phone) { // width < 600 ?
-        font-size: 30%; // 1rem = 4.8px, ( 4.8/16 px )*100 = 30%
-    }
-    @include respond(big-desktop) {
-        font-size: 75%; // 1rem = 12px, ( 12/16 px )*100 = 75%
-    }
 }
 
 body {
    box-sizing: border-box;
+   font-size: $default-font-size;
+   font-weight: 400;
+   font-family: $plus-jakarta-sans;
 }

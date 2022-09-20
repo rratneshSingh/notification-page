@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  padding-inline-start: 0;
+  box-sizing: inherit;
+  list-style: none; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans", sans-serif; }
+
+@font-face {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  src: url("../../assets/fonts/static/PlusJakartaSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  src: url("../../assets/fonts/static/PlusJakartaSans-Meduim.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+.cursor_pointer {
+  cursor: pointer; }
+
+.main {
+  padding-top: 6.3rem;
+  background-color: #dff9fb; }
+
+.notification_main {
+  color: #5E6778;
+  width: 60%;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 3.3rem 3rem 0 3rem;
+  box-shadow: 0px 2rem 6rem rgba(73, 97, 168, 0.05);
+  border-radius: 1.5rem; }
+
+.notification_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  margin-bottom: 3rem; }
+  .notification_header_title {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #1C202B;
+    display: flex;
+    align-items: center; }
+    .notification_header_title span {
+      color: #ffffff;
+      background-color: #0A327B;
+      padding: .2rem 1rem;
+      margin-left: 1rem;
+      border-radius: .6rem;
+      font-size: 1.6rem; }
+  .notification_header_action:hover {
+    color: #0A327B; }
+
+.notification_list_item {
+  display: flex;
+  padding: 1.8rem 3.2rem 1.8rem 2rem;
+  background-color: #F7FAFD;
+  border-radius: .8rem;
+  margin-bottom: .8rem; }
+  .notification_list_item .n_profile_pic img {
+    width: 4.5rem; }
+  .notification_list_item .n_content {
+    margin-left: 1.9rem; }
+    .notification_list_item .n_content .info {
+      margin-bottom: .3rem; }
+      .notification_list_item .n_content .info_user {
+        color: #1C202B;
+        font-weight: 800; }
+      .notification_list_item .n_content .info_post_title {
+        color: #5E6778;
+        font-weight: 800; }
+      .notification_list_item .n_content .info_group_name {
+        color: #0A327B;
+        font-weight: 800; }
+    .notification_list_item .n_content .time {
+      color: #939CAD; }
+    .notification_list_item .n_content .message {
+      margin-top: 1.2rem;
+      padding: 2rem;
+      border: 0.1rem solid #DDE7EE;
+      border-radius: .5rem; }

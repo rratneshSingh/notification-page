@@ -1,0 +1,15 @@
+@font-face {
+    font-family: $plus-jakarta-sans;
+    src: url('#{$path-to-fonts}/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: $plus-jakarta-sans;
+    src: url('#{$path-to-fonts}/PlusJakartaSans-Meduim.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
