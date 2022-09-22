@@ -1,6 +1,10 @@
 .main {
     padding-top: 6.3rem;
     background-color: $main-bg-color;
+
+    @include forSmallScreens(640) {
+       padding-top: 0;
+    }
 }
 
 .notification {
@@ -13,6 +17,11 @@
         padding: 3.3rem 3rem 0 3rem;
         box-shadow: 0px 2rem 6rem rgba(73, 97, 168, 0.05);
         border-radius: 1.5rem;
+
+        @include forSmallScreens(640) {
+            width: 100%;
+            border-radius: none;
+        }
     }
 
     &_header {
@@ -109,7 +118,4 @@
             }
         }
     }
-
-
-
 }

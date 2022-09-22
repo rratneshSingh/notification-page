@@ -36,6 +36,9 @@ body {
 .main {
   padding-top: 6.3rem;
   background-color: #dff9fb; }
+  @media (max-width: 40em) {
+    .main {
+      padding-top: 0; } }
 
 .notification_main {
   color: #5E6778;
@@ -45,6 +48,10 @@ body {
   padding: 3.3rem 3rem 0 3rem;
   box-shadow: 0px 2rem 6rem rgba(73, 97, 168, 0.05);
   border-radius: 1.5rem; }
+  @media (max-width: 40em) {
+    .notification_main {
+      width: 100%;
+      border-radius: none; } }
 
 .notification_header {
   display: flex;

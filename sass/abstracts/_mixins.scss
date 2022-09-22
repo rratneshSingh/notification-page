@@ -1,0 +1,4 @@
+@mixin forSmallScreens($media) {
+    $brkpoint: $media/16 + em;
+    @media (max-width: $brkpoint) { @content }
+}
